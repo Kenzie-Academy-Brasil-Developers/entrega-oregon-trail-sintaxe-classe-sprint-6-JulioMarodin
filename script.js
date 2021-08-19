@@ -39,7 +39,7 @@ class Traveler extends Wagon {
         super(capacity)
         this.name = name;
         this.food = 1;
-        this._isHealthy = true;
+        this.isHealthy = true;
     }
 
     hunt = () => {
